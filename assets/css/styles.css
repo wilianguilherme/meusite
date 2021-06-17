@@ -1,11 +1,25 @@
 body{
     background: #f7f7f7;
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 #titulo, .subtitulo, .postagem_titulo{
     color: #505050;
 
 }
+
+#titulo{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: line-through;
+    color: #505050;
+}
+
 .postagem_titulo{
     font-size: 16px;
     font-style: italic;
@@ -19,17 +33,30 @@ body{
     border: 3px solid #505050;
     margin-bottom: 15;
     border-radius: 5px;
+    text-transform: capitalize;
 }
 
 .postagem_conteudo{
     margin: 0;
     margin-top: 15px;
+    text-align: center;
 }
 .imagem_postagem{
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .eu{
     border: solid #505050;
     border-radius: 50%;
+}
+
+.links{
+    list-style-type: none;
+    padding: 0;
+    padding-left: 15px;
+}
+
+.links li a{
+    text-decoration: none;
 }
